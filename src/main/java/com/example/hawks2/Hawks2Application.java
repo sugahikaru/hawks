@@ -4,9 +4,11 @@ package com.example.hawks2;
 import ch.qos.logback.classic.joran.ReconfigureOnChangeTask;
 
 
-public class Hawks2Application {
+@SpringBootApplication
+public class NameserviceApplication {
 
 	public static void main(String[] args) {
-		ReconfigureOnChangeTask SpringApplication;
+		SpringApplication.run(NameserviceApplication.class, args);
 	}
+
 }
